@@ -1,0 +1,32 @@
+.Home {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.home {
+  width: 100%;
+  float: left;
+}
+.home ul {
+  margin-top: 5px;
+  height: 25px;
+}
+.home li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  height: 25px;
+}
+
+.home a {
+  padding-left: 10px;
+  border-left: 3px solid #9f224e;
+  color: #9f224e;
+
+  height: 25px;
+  display: block;
+  float: left;
+  font: 400 14px/25px arial;
+  background: #eceeed;
+  padding: 0 5px;
+  white-space: nowrap;
+}

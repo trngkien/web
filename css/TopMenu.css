@@ -1,0 +1,123 @@
+.TopMenu {
+  height: 30px;
+  width: 100%;
+  background-color: #f8f8f8;
+  box-shadow: 0px -5px 10px #9c1010;
+}
+
+.topMenu {
+  font: 14px 'Segoe UI', 'Helvetica Neue', 'Droid Sans', Arial, Tahoma, Geneva,
+    Sans-serif;
+  color: #343434;
+  width: 100%;
+}
+
+.listItem {
+  float: left;
+  background-color: #e7e9ed;
+  padding: 2px;
+  height: 30px;
+  width: 100%;
+}
+
+.listItem ul {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.item {
+  height: 100%;
+  text-align: center;
+}
+
+.item-content {
+  height: 100%;
+  float: left;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-topMenu {
+  height: 100%;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-content img {
+  height: 15px;
+  width: 15px;
+  margin-right: 7px;
+}
+
+.button-topMenu img {
+  height: 10px;
+  width: 10px;
+}
+
+.item:hover {
+  background-color: rgb(140, 21, 21);
+  color: #e7e9ed;
+}
+
+.daotaodaihoc,
+.daotaosaudaihoc,
+.congtacsinhvien {
+  position: relative;
+}
+
+/* ----------------------------------------------------------- */
+.daotaodaihoc-list,
+.daotaosaudaihoc-list,
+.congtacsinhvien-list {
+  display: none;
+  background-color: white;
+  color: black;
+  min-width: 65%;
+  box-shadow: 0px 0.5px 2px black;
+}
+.daotaodaihoc-list ul,
+.daotaosaudaihoc-list ul,
+.congtacsinhvien-list ul {
+  display: block;
+}
+.daotaodaihoc-list li,
+.daotaosaudaihoc-list li,
+.congtacsinhvien-list li {
+  display: block;
+  height: 32px;
+  width: 100%;
+  display: flex;
+}
+.daotaodaihoc-list li a,
+.daotaosaudaihoc-list li a,
+.congtacsinhvien-list li a {
+  color: black;
+  padding-left: 20px;
+  line-height: 32px;
+  float: inline-start;
+  font-family: 'Segoe UI', 'Helvetica Neue', 'Droid Sans', Arial, Tahoma, Geneva,
+    Sans-serif;
+}
+.daotaodaihoc:hover .daotaodaihoc-list,
+.daotaosaudaihoc:hover .daotaosaudaihoc-list,
+.congtacsinhvien:hover .congtacsinhvien-list {
+  display: block;
+  position: absolute;
+  top: 30px;
+}
+
+.daotaodaihoc-list li:hover,
+.daotaosaudaihoc-list li:hover,
+.congtacsinhvien-list li:hover {
+  background-color: #9c1010;
+}
+.daotaodaihoc-list li:hover a,
+.daotaosaudaihoc-list li:hover a,
+.congtacsinhvien-list li:hover a {
+  color: #e7e9ed;
+}

@@ -1,0 +1,111 @@
+.content {
+  height: 100%;
+  width: calc(100% - 285px);
+  float: left;
+  margin-bottom: 15px;
+}
+
+.MainContentTitle {
+  padding: 5px;
+  width: 100%;
+}
+
+.MainContentTitle h3 {
+  font-weight: bold;
+  text-align: center;
+  color: #8c1515;
+  margin-top: 5px !important;
+  text-transform: uppercase;
+}
+
+.MainContentTitle hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+.maincontent-row > span {
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  font-weight: bold;
+  color: #8c1515;
+  vertical-align: middle;
+  line-height: 2em;
+}
+
+.maincontent-row hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 4px;
+  border: 3px solid #ff9900;
+  display: block;
+  width: 80%;
+}
+
+/* -------------- */
+.thongtinsinhvien-content {
+  display: grid;
+  grid-template-columns: 25% 33.333333333% 33.333333333%;
+}
+
+.thongtinsinhvien-content .box1 {
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.thongtinsinhvien-content .box1 img {
+  width: 200px;
+  padding: 4px;
+  border: 1px solid #eee;
+  box-shadow: 8px 8px 6px 6px #888888;
+}
+
+.thongtinsinhvien-content .box1 .mssv {
+  height: 32px;
+  text-align: center;
+}
+
+.thongtinsinhvien-content .box1 span {
+  font-family: 'Arimo', sans-serif;
+  font-size: 16px;
+  line-height: 2em;
+}
+
+.box1,
+.box2,
+.box3,
+.note {
+  font-family: 'Arimo', sans-serif;
+  font-size: 16px;
+  line-height: 2em;
+}
+
+/* ----------- */
+.thongtinhoctap-content,
+.thongtincanhan-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.thongtinhoctap-content .box1,
+.thongtincanhan-content .box1 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.thongtincanhan-content {
+  margin-bottom: 30px;
+}
+
+button {
+  border: none;
+  background-color: none;
+}
+button:hover {
+  cursor: pointer;
+}

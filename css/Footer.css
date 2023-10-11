@@ -1,0 +1,32 @@
+.footer {
+  height: 100px;
+}
+.footerMain {
+  background: url('../image/footer.jpg') no-repeat top;
+  width: 100%;
+  float: left;
+  height: 100px;
+}
+
+.about {
+  width: 35%;
+  float: right;
+  text-align: right;
+  margin-right: 5%;
+  color: #fff;
+}
+
+.about hr {
+  margin: 10px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
+
+.about b {
+  font-weight: 700;
+}
+
+.about p {
+  margin: 0 0 10px;
+}

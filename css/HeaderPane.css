@@ -1,0 +1,54 @@
+*,
+div {
+  padding: 0px;
+  margin: 0;
+}
+
+div {
+  display: block;
+}
+.HeaderPane {
+  height: 120px;
+}
+
+.headerPane {
+  border-top: solid 10px #9c1010;
+  padding-top: 10px;
+}
+
+.headerPane .container {
+  height: 100px;
+  padding-bottom: 10px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1170px;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: ' ';
+}
+.container:after {
+  clear: both;
+}
+
+.headerPane .container a {
+  padding-left: 20px;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.HeaderPane img {
+  /* vertical-align: middle; */
+  height: 90px;
+}

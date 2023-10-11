@@ -1,0 +1,122 @@
+.nav {
+  height: 100%;
+  width: 285px;
+  float: left;
+}
+/* nav */
+
+.header-content {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.header-content h3 {
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  color: #8c1515;
+  text-transform: uppercase;
+}
+
+.content-list ul {
+  margin-bottom: 10px;
+}
+
+.content-list ul li {
+  display: block;
+  height: 37px;
+  padding-left: 10px;
+}
+
+.content-list ul li:hover a,
+.content-list ul li:hover span,
+.content-list ul li:hover {
+  background: #ebebeb !important;
+  color: #9e100e;
+}
+.content-list ul li:hover span {
+  cursor: pointer;
+}
+
+.content-list ul li a {
+  border-bottom: 1px solid #ccc;
+  display: block;
+  text-decoration: none;
+  padding-left: 5px;
+  line-height: 37px;
+  font-family: sans-serif;
+}
+
+.content-list ul li span {
+  border-bottom: 1px solid #ccc;
+  display: block;
+  text-decoration: none;
+  padding-left: 5px;
+  line-height: 37px;
+  font-family: sans-serif;
+}
+/* ------------- */
+
+.nav-top {
+  height: auto;
+  background-color: rgb(242, 241, 235);
+  padding: 10px;
+}
+.nav-quanlyhososinhvien {
+  height: auto;
+  background-color: rgb(242, 241, 235);
+  padding: 10px;
+}
+
+.nav-daotao {
+  height: auto;
+  background-color: rgb(242, 241, 235);
+  padding: 10px;
+}
+
+.nav-tuvantructuyen {
+  height: auto;
+  background-color: rgb(242, 241, 235);
+  padding: 10px;
+}
+
+.nav-taichinhhocvu {
+  height: auto;
+  background-color: rgb(242, 241, 235);
+  padding: 10px;
+}
+
+.nav-dichvuhanhchinh {
+  height: auto;
+  background-color: rgb(242, 241, 235);
+  padding: 10px;
+}
+
+/* -------------- */
+
+.list-1-children,
+.list-2-children,
+.list-3-children,
+.list-4-children {
+  display: none;
+  padding-left: 20px;
+}
+.content-list ul li span {
+  color: #337ab7;
+}
+
+.list-1-parent:hover + .list-1-children,
+.list-2-parent:hover + .list-2-children,
+.list-3-parent:hover + .list-3-children,
+.list-4-parent:hover + .list-4-children {
+  display: block;
+}
